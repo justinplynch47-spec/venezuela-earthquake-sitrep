@@ -1,0 +1,803 @@
+{
+  "meta": {
+    "cutoff": "29 JUN 2026 · 17:20 ET",
+    "nextUpdate": "AUTOMATIC CHECKS · ≤30 MIN",
+    "overallConfidence": "Moderate-high",
+    "phase": "SEARCH & RESCUE → HUMANITARIAN TRANSITION"
+  },
+  "headline": "Government reporting increased sharply while international logistics expanded: 1,719 deaths, 5,034 injuries, 65 provisional camps and more than 2,200 international rescuers. PAHO-identified EMT and WASH gaps remain, but incoming capacity requires location-specific gap validation.",
+  "metrics": [
+    {
+      "label": "REPORTED DEATHS",
+      "value": "1,719",
+      "note": "29 Jun government update; not yet reconciled with UN reporting.",
+      "confidence": "Moderate"
+    },
+    {
+      "label": "REPORTED INJURIES",
+      "value": "5,034",
+      "note": "29 Jun government update; provisional and rapidly changing.",
+      "confidence": "Moderate"
+    },
+    {
+      "label": "AFFECTED / DISPLACED",
+      "value": "15,866",
+      "note": "Government term: damnificados; displacement status not fully reconciled.",
+      "confidence": "Moderate"
+    },
+    {
+      "label": "INTL. RESCUE",
+      "value": ">2,200",
+      "note": "27 countries and 140 search dogs reported by OCHA.",
+      "confidence": "High"
+    }
+  ],
+  "deltas": [
+    {
+      "label": "Deaths",
+      "from": "1,450",
+      "to": "1,719",
+      "status": "up",
+      "note": "+269"
+    },
+    {
+      "label": "Injured",
+      "from": "3,150",
+      "to": "5,034",
+      "status": "up",
+      "note": "+1,884"
+    },
+    {
+      "label": "Buildings affected",
+      "from": "770+",
+      "to": "855",
+      "status": "up",
+      "note": "189 total collapse"
+    },
+    {
+      "label": "Field hospitals",
+      "from": "—",
+      "to": "3",
+      "status": "new",
+      "note": "UN · La Guaira"
+    },
+    {
+      "label": "Port access",
+      "from": "restricted",
+      "to": "operational",
+      "status": "improved",
+      "note": "La Guaira"
+    }
+  ],
+  "accessStatus": [
+    {
+      "node": "Port of La Guaira",
+      "status": "OPERATIONAL",
+      "detail": "Receiving critical supplies and equipment; USS Fort Lauderdale delivery confirmed.",
+      "confidence": "High",
+      "verified": "29 Jun · SOUTHCOM"
+    },
+    {
+      "node": "Air access",
+      "status": "EXPANDING",
+      "detail": "Airfield teams expanding traffic; C-17/C-130 and rotary-wing movements operating.",
+      "confidence": "High",
+      "verified": "29 Jun · SOUTHCOM"
+    },
+    {
+      "node": "Road access",
+      "status": "CONSTRAINED",
+      "detail": "Controls, congestion and damaged routes continue to limit last-mile movement.",
+      "confidence": "Moderate",
+      "verified": "29 Jun · public reporting"
+    },
+    {
+      "node": "La Guaira power",
+      "status": "90% REPORTED",
+      "detail": "Government figure; independent engineering validation unavailable.",
+      "confidence": "Moderate",
+      "verified": "29 Jun · government"
+    }
+  ],
+  "capacityGaps": [
+    {
+      "capability": "Type 1 EMT",
+      "capacity": "3 UN field hospitals operating; multiple EMTs in response pipeline.",
+      "gap": "Facility-level outpatient, referral and shelter-health gaps remain insufficiently mapped.",
+      "request": "PAHO technical recommendation; government RFA for TR not verified.",
+      "tr": "Advance team announced; arrival/tasking unverified."
+    },
+    {
+      "capability": "WASH",
+      "capacity": "U.S. water-purification assets inbound; UNICEF, IFRC, IMC and EU WASH support mobilized.",
+      "gap": "9/10 assessed facilities reported WASH deficits; exact residual facility and shelter gaps require reassessment.",
+      "request": "PAHO/MOH need confirmed; organization-specific tasking not public.",
+      "tr": "Direct capability match; deployment status unverified."
+    },
+    {
+      "capability": "Engineering / access",
+      "capacity": "Heavy equipment, Marine engineers, airfield teams and port access now reported.",
+      "gap": "Building habitability, debris clearance and last-mile access remain major constraints.",
+      "request": "U.S. support confirmed as requested by Venezuelan government.",
+      "tr": "Relevant to situational awareness; not a primary TR international capability in this brief."
+    }
+  ],
+  "commandPriorities": [
+    {
+      "action": "Establish patient referral coordination",
+      "rationale": "PAHO found no referral coordination centre, restricted diagnostics and growing trauma-orthopaedic and neurosurgical waiting lists.",
+      "owner": "HEALTH CLUSTER / MPPS"
+    },
+    {
+      "action": "Close WASH and biosafety gaps at hospitals",
+      "rationale": "9 of 10 assessed facilities have WASH deficits; PPE, water/soap stations, waste bags and incinerator restoration are immediate requirements.",
+      "owner": "WASH + HEALTH"
+    },
+    {
+      "action": "Position EMT Level 1 near damaged facilities",
+      "rationale": "PAHO explicitly recommends EMT Level 1 support near structurally affected hospitals away from the front line. TR capability matches; deployment remains unconfirmed.",
+      "owner": "EMT COORDINATION"
+    },
+    {
+      "action": "Restore patient and missing-person tracking",
+      "rationale": "No facility information units or centralized tracking application; 9 of 10 facilities have connectivity problems.",
+      "owner": "HEALTH IM / TELECOM"
+    },
+    {
+      "action": "Resolve fatality-management shortfalls",
+      "rationale": "Body bags, refrigerated transport and forensic capacity are insufficient; PAHO recommends considering international expert support.",
+      "owner": "HEALTH / FORENSICS"
+    }
+  ],
+  "pahoSnapshot": {
+    "kpis": [
+      {
+        "value": "10",
+        "label": "facilities assessed"
+      },
+      {
+        "value": "1",
+        "label": "total damage"
+      },
+      {
+        "value": "3",
+        "label": "partial damage"
+      },
+      {
+        "value": "9/10",
+        "label": "WASH deficits"
+      },
+      {
+        "value": "9/10",
+        "label": "connectivity problems"
+      }
+    ],
+    "hospitals": [
+      {
+        "name": "José María Vargas Hospital (IVSS)",
+        "priority": "Critical: immediate",
+        "status": "Severe non-structural damage; operations restricted to ground floor. Pediatric ED, blood bank and morgue critical."
+      },
+      {
+        "name": "Macuto Maternity",
+        "priority": "High",
+        "status": "Full evacuation; zero operational beds reported."
+      },
+      {
+        "name": "Dr. Rafael Medina Jiménez Hospital",
+        "priority": "High",
+        "status": "Structural damage; 35 of 108 beds operational; core services limited."
+      },
+      {
+        "name": "Dr. Alfredo Machado Popular Clinic",
+        "priority": "High",
+        "status": "Structural damage; 46 operational beds; no backup generator and X-ray non-operational."
+      }
+    ],
+    "trFit": "PAHO recommendations align with TR's WHO-verified Type 1 Mobile EMT and WASH capabilities: EMT Level 1 support, water/soap stations, hygiene, hospital waste controls and support near damaged facilities. This is a capability match—not a tasking or confirmed in-country deployment."
+  },
+  "areas": [
+    {
+      "name": "Catia La Mar",
+      "status": "Primary operations",
+      "level": "active",
+      "evidence": "Repeated professional and civilian search evidence"
+    },
+    {
+      "name": "Macuto",
+      "status": "Primary operations",
+      "level": "active",
+      "evidence": "Named initial official priority"
+    },
+    {
+      "name": "Caraballeda",
+      "status": "Later expansion",
+      "level": "delayed",
+      "evidence": "Machinery and teams visible by 28 Jun"
+    },
+    {
+      "name": "Los Corales",
+      "status": "Later expansion",
+      "level": "delayed",
+      "evidence": "Initially outside priority footprint"
+    },
+    {
+      "name": "Tanaguarena",
+      "status": "Status unresolved",
+      "level": "gap",
+      "evidence": "Serious impacts; current coverage unverified"
+    }
+  ],
+  "operations": [
+    {
+      "title": "Access",
+      "detail": "Port of La Guaira is operational and airport throughput is expanding with U.S. airfield support; controlled and damaged last-mile routes remain the primary constraint.",
+      "confidence": "High"
+    },
+    {
+      "title": "Worksite coverage",
+      "detail": "Ten unnamed areas were assigned to IAE after no previous INSARAG-standard professional search was recorded publicly.",
+      "confidence": "Moderate-high"
+    },
+    {
+      "title": "Health system",
+      "detail": "Ten facilities assessed; one totally damaged, three partially damaged, with widespread WASH and connectivity failures.",
+      "confidence": "High"
+    },
+    {
+      "title": "Remote sensing",
+      "detail": "NASA's experimental rapid product estimates 58,870 likely damaged/destroyed buildings across its assessed coverage. It remains preliminary and unvalidated.",
+      "confidence": "Low"
+    }
+  ],
+  "riskAssessment": [
+    {
+      "risk": "Secondary structural collapse",
+      "level": "VERY HIGH",
+      "basis": "Ongoing aftershocks are occurring around already compromised buildings; field reporting documents unstable structures and responder exposure.",
+      "confidence": "High",
+      "type": "Observed + analytic"
+    },
+    {
+      "risk": "Health-service interruption",
+      "level": "VERY HIGH",
+      "basis": "The 29 Jun PAHO call reports 1 of 10 facilities with total damage, 3 with partial damage, limited beds and degraded referral/diagnostic capacity.",
+      "confidence": "High",
+      "type": "Observed"
+    },
+    {
+      "risk": "WASH and communicable disease",
+      "level": "HIGH",
+      "basis": "9 of 10 assessed facilities report WASH deficits; PAHO identifies biosafety breakdowns, shelter WASH needs, vaccination gaps and need for surveillance.",
+      "confidence": "High",
+      "type": "Observed + analytic"
+    },
+    {
+      "risk": "Fatality-management and biological exposure",
+      "level": "HIGH",
+      "basis": "Collapsed forensic/morgue capacity, body-bag and refrigerated-transport shortfalls, and decomposition are documented by PAHO and Spanish field reporting.",
+      "confidence": "High",
+      "type": "Observed"
+    },
+    {
+      "risk": "Humanitarian access and logistics",
+      "level": "MODERATE-HIGH",
+      "basis": "Port access and strategic airlift improved on 29 Jun, but controlled roads, damaged infrastructure and last-mile distribution remain constraints.",
+      "confidence": "Moderate-high",
+      "type": "Observed + analytic"
+    },
+    {
+      "risk": "Protection and displacement",
+      "level": "HIGH",
+      "basis": "UNHCR warns of unsafe housing, gender-based violence and reduced access to health, water, education and livelihoods for displaced and vulnerable groups.",
+      "confidence": "Moderate-high",
+      "type": "Analytic warning"
+    }
+  ],
+  "lifelines": [
+    {
+      "name": "Safety & Security",
+      "status": "unstable",
+      "assessment": "UNSTABLE",
+      "dataPoints": [
+        "More than 2,200 international rescuers and 140 dogs from 27 countries reported by OCHA",
+        "609 aftershocks reported by government",
+        "Unstable structures threaten responders and residents"
+      ],
+      "confidence": "Moderate-high"
+    },
+    {
+      "name": "Food, Water, Shelter",
+      "status": "disrupted",
+      "assessment": "DISRUPTED",
+      "dataPoints": [
+        "9 of 10 assessed health facilities have WASH deficits",
+        "65 provisional camps reported: 50 Greater Caracas and 15 La Guaira",
+        "Multiple WASH actors and water-purification assets mobilized; residual gaps not mapped"
+      ],
+      "confidence": "High"
+    },
+    {
+      "name": "Health & Medical",
+      "status": "disrupted",
+      "assessment": "DISRUPTED",
+      "dataPoints": [
+        "10 facilities assessed: 1 total and 3 partial damage",
+        "Trauma, neurosurgical and orthopedic backlogs growing",
+        "PAHO recommends EMT Level 1 near damaged hospitals"
+      ],
+      "confidence": "High"
+    },
+    {
+      "name": "Energy",
+      "status": "constrained",
+      "assessment": "CONSTRAINED",
+      "dataPoints": [
+        "Government reported 90% restoration in La Guaira on 29 Jun",
+        "Power disruptions persist outside verified restoration areas",
+        "Independent engineering validation unavailable"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "name": "Communications",
+      "status": "constrained",
+      "assessment": "CONSTRAINED",
+      "dataPoints": [
+        "9 of 10 assessed health facilities have connectivity problems",
+        "No centralized patient or missing-person tracking application",
+        "No verified network restoration percentage"
+      ],
+      "confidence": "High"
+    },
+    {
+      "name": "Transportation",
+      "status": "constrained",
+      "assessment": "CONSTRAINED",
+      "dataPoints": [
+        "Port of La Guaira operational on 29 Jun",
+        "Airfield assessment and military airlift expanding inbound capacity",
+        "Road controls, damage and congestion constrain last-mile access"
+      ],
+      "confidence": "High"
+    },
+    {
+      "name": "Hazardous Materials",
+      "status": "unknown",
+      "assessment": "UNKNOWN",
+      "dataPoints": [
+        "No consolidated hazmat assessment located",
+        "Debris, dust and decomposing remains create exposure risks",
+        "Aftershocks continue to affect responder safety"
+      ],
+      "confidence": "Low"
+    }
+  ],
+  "responders": [
+    {
+      "name": "PAHO / WHO",
+      "type": "UN HEALTH",
+      "presence": "Ten facilities assessed in Capital District and La Guaira; Health Cluster coordination",
+      "activities": "ERES rapid assessment, hospital-priority mapping, EMT coordination and recommendations for referral, WASH, diagnostics, fatality management and patient tracking.",
+      "request": "EMT-1 and specialized EMT-3 support; WASH/biosafety supplies; portable imaging; body-management and MHPSS capacity",
+      "source": "https://www.paho.org/en/earthquakes-venezuela-2026"
+    },
+    {
+      "name": "Venezuelan Red Cross / IFRC",
+      "type": "RED CROSS",
+      "presence": "La Guaira and Greater Caracas initial focus",
+      "activities": "Search and rescue, first aid, psychosocial support, family links and damage assessments; 17 tonnes of initial relief cargo.",
+      "request": "CHF 50M appeal to assist 300,000 people",
+      "source": "https://www.ifrc.org/press-release/venezuela-earthquakes-ifrc-launches-emergency-appeal-assist-300000-people-and"
+    },
+    {
+      "name": "Team Rubicon",
+      "type": "NGO · EMT/WASH",
+      "presence": "TR stated 26 Jun that it was sending a medical advance team; PAHO listed TR at stand-by on 27 Jun. Arrival and field operations remain unverified.",
+      "activities": "WHO lists Team Rubicon as a classified Type 1 Mobile EMT; TR also reports international WASH capability.",
+      "source": "https://teamrubiconusa.org/news-and-stories/how-to-help-venezuela-earthquake-survivors/"
+    },
+    {
+      "name": "UNICEF",
+      "type": "UN AGENCY",
+      "presence": "Scaled national response with supplies arriving by air",
+      "activities": "Health, nutrition, WASH, child protection and education support targeting 650,000 people.",
+      "request": "US$52M earthquake requirement",
+      "source": "https://www.unicef.org/press-releases/unicef-680000-children-estimated-be-need-humanitarian-assistance-after-venezuela"
+    },
+    {
+      "name": "World Food Programme",
+      "type": "UN AGENCY",
+      "presence": "On ground in La Guaira; national logistics role",
+      "activities": "Food stocks, transport, storage and coordination infrastructure; 3,000 MT can support 10,000 families for two months.",
+      "source": "https://www.wfp.org/stories/wfp-supports-venezuela-earthquake-response-food-other-assistance"
+    },
+    {
+      "name": "International Medical Corps",
+      "type": "NGO",
+      "presence": "Rapid-response teams in Caracas and La Guaira",
+      "activities": "Health-facility and community assessments, medical support planning and clean-water trucking for La Guaira.",
+      "source": "https://cdn1.internationalmedicalcorps.org/wp-content/uploads/2026/06/IntlMedCorps-Venezuela_Earthquake_SitRep01R.pdf"
+    },
+    {
+      "name": "International Rescue Committee",
+      "type": "NGO",
+      "presence": "Emergency response mobilized in affected areas",
+      "activities": "Essential relief items and emergency medical supplies for frontline workers; additional community assessments.",
+      "source": "https://www.rescue.org/press-release/venezuela-irc-launches-emergency-response-twin-earthquakes"
+    },
+    {
+      "name": "Cáritas Venezuela",
+      "type": "NGO NETWORK",
+      "presence": "National network of 700 sites and 30,000 volunteers",
+      "activities": "Community damage-and-needs collection and preparation of immediate assistance through parish-linked networks.",
+      "request": "Initial €100,000 released by Caritas international",
+      "source": "https://www.caritas-international.de/ueberuns/presse/pressem/erdbeben-in-venezuela-landesweites-caritas-netzwerk-bereitet-hilfen-vor-e2d0cd95"
+    },
+    {
+      "name": "World Vision",
+      "type": "NGO",
+      "presence": "Emergency response team activated",
+      "activities": "Food, hygiene and menstrual-dignity kits; psychosocial support, child protection and WASH.",
+      "source": "https://www.worldvision.org/about-us/media-center/world-vision-launches-humanitarian-response-to-support-victims-of-deadly-earthquakes-in-venezuela"
+    },
+    {
+      "name": "RET International",
+      "type": "NGO",
+      "presence": "Teams and partner Fe y Alegría on ground",
+      "activities": "Damage assessment, child protection, psychosocial support and educational continuity.",
+      "source": "https://theret.org/2026/06/ven/ret-international-responds-to-devastating-earthquakes-in-venezuela/"
+    }
+  ],
+  "medicalNeeds": [
+    {
+      "priority": "Mass-casualty and trauma care",
+      "evidence": "Fractures, head injuries and burns; orthopedic and neurosurgical backlogs.",
+      "status": "critical"
+    },
+    {
+      "priority": "Medicines and critical supplies",
+      "evidence": "Urgent requirements include medicines, surgical supplies, oxygen, blood and fuel.",
+      "status": "critical"
+    },
+    {
+      "priority": "Facility safety and patient flow",
+      "evidence": "Overcrowding, chaotic triage and referral; 1 facility totally damaged and 3 partially damaged.",
+      "status": "critical"
+    },
+    {
+      "priority": "Fatality management and registration",
+      "evidence": "Forensic/morgue capacity, casualty registration and missing-person tracking are major gaps.",
+      "status": "critical"
+    },
+    {
+      "priority": "Continuity of essential care",
+      "evidence": "Maternal/newborn care, chronic disease treatment and emergency surgery must be maintained.",
+      "status": "high-priority"
+    },
+    {
+      "priority": "Hospital WASH and biosafety",
+      "evidence": "9/10 facilities report WASH deficits; hygiene, PPE, waste segregation and incinerator restoration are required.",
+      "status": "critical"
+    },
+    {
+      "priority": "Public health surveillance and MHPSS",
+      "evidence": "No mental-health teams reported in facilities; shelters require permanent family-medicine and MHPSS support.",
+      "status": "high-priority"
+    }
+  ],
+  "gaps": [
+    "Current INSARAG worksite triage and completion list",
+    "Verified status of Tanaguarena, OPP 33 and ten assigned search areas",
+    "Deduplicated national missing-person count",
+    "Current airport and humanitarian air-bridge capacity",
+    "Full 10-facility functionality, bed and referral map beyond the six detailed hospitals",
+    "Displacement and shelter-capacity totals"
+  ],
+  "developments": [
+    {
+      "time": "29 JUN 10:00",
+      "title": "PAHO call update",
+      "detail": "10 facilities assessed; 1 total damage, 3 partial; 9/10 report WASH and connectivity deficits.",
+      "status": "confirmed"
+    },
+    {
+      "time": "29 JUN 07:01",
+      "title": "Strong aftershock",
+      "detail": "USGS M4.6; FUNVISIS M4.2 near La Guaira. No major new damage confirmed.",
+      "status": "confirmed"
+    },
+    {
+      "time": "29 JUN AM",
+      "title": "Heavy machinery increasing",
+      "detail": "EFE reports expanded machinery and additional foreign rescuers.",
+      "status": "confirmed"
+    },
+    {
+      "time": "28 JUN",
+      "title": "Late live rescues",
+      "detail": "Father and son recovered alive after four days, according to Reuters.",
+      "status": "confirmed"
+    },
+    {
+      "time": "27–29 JUN",
+      "title": "Coverage gaps identified",
+      "detail": "Field reports identify delayed professional search in multiple areas.",
+      "status": "unverified"
+    }
+  ],
+  "validation": [
+    {
+      "claim": "M7.2 / M7.5 sequence and affected region",
+      "status": "corroborated",
+      "note": "Seismic parameters align across international technical reporting and PAHO's Spanish situation report.",
+      "sources": [
+        {
+          "name": "GDACS",
+          "language": "EN",
+          "url": "https://www.gdacs.org/gts.aspx?eventid=1548377&eventtype=EQ"
+        },
+        {
+          "name": "OPS/OMS SitRep",
+          "language": "ES",
+          "url": "https://www.paho.org/sites/default/files/2026/06/ven-terremotositrep124jun2026spa.pdf"
+        }
+      ]
+    },
+    {
+      "claim": "1,719 reported deaths and 5,034 injuries",
+      "status": "provisional",
+      "note": "29 Jun government update carried by teleSUR and broadly corroborated by AP as more than 1,700 deaths. UN reporting remained at least 1,450 earlier the same day; reconciliation pending.",
+      "sources": [
+        {
+          "name": "teleSUR / government update",
+          "language": "ES",
+          "url": "https://www.telesurtv.net/venezuela-sube-fallecidos-doblete-sismico/"
+        },
+        {
+          "name": "AP field report",
+          "language": "EN",
+          "url": "https://apnews.com/article/venezuela-earthquakes-survivors-rescue-rodriguez-c1e96329a6194b56f19c75c168b9595d"
+        }
+      ]
+    },
+    {
+      "claim": "International response established but coverage uneven",
+      "status": "corroborated",
+      "note": "OCHA confirms the deployed international force; Spanish field reporting documents gaps in machinery and professional coverage.",
+      "sources": [
+        {
+          "name": "ONU/OCHA",
+          "language": "ES",
+          "url": "https://www.ungeneva.org/es/news-media/news/2026/06/120076/mas-de-mil-rescatistas-internacionales-se-despliegan-en-venezuela"
+        },
+        {
+          "name": "EFE La Guaira",
+          "language": "ES",
+          "url": "https://efe.com/mundo/2026-06-29/esperanza-busqueda-rescate-personas-la-guaira-terremotos-venezuela/"
+        }
+      ]
+    },
+    {
+      "claim": "Electricity, water and road restoration percentages",
+      "status": "provisional",
+      "note": "The 75% / 68% / 90% values originate with the Venezuelan government and are repeated by media; no independent engineering validation was found.",
+      "sources": [
+        {
+          "name": "El País directo",
+          "language": "ES",
+          "url": "https://elpais.com/america/2026-06-29/ultima-hora-del-terremoto-en-venezuela-en-directo.html"
+        }
+      ]
+    },
+    {
+      "claim": "Health system overload and urgent medical needs",
+      "status": "corroborated",
+      "note": "PAHO facility assessments align with UNICEF reporting of hospitals beyond capacity and field medical-response reporting.",
+      "sources": [
+        {
+          "name": "PAHO / WHO",
+          "language": "EN",
+          "url": "https://www.paho.org/en/earthquakes-venezuela-2026"
+        },
+        {
+          "name": "UNICEF Venezuela",
+          "language": "ES",
+          "url": "https://www.unicef.org/venezuela/comunicados-prensa/se-estima-que-680000-ni%C3%B1os-y-ni%C3%B1as-necesitan-asistencia-humanitaria-tras-los"
+        }
+      ]
+    },
+    {
+      "claim": "Shelter, water and access constraints",
+      "status": "corroborated",
+      "note": "Spanish field reporting documents displaced families, water constraints and the Caracas–La Guaira access bottleneck; UN agencies report matching needs.",
+      "sources": [
+        {
+          "name": "El País refugios",
+          "language": "ES",
+          "url": "https://elpais.com/america/2026-06-29/el-reencuentro-de-los-sobrevivientes-en-los-refugios-de-caracas-pedro-del-piso-5-quedo-aplastado.html"
+        },
+        {
+          "name": "UNICEF",
+          "language": "EN",
+          "url": "https://www.unicef.org/press-releases/unicef-680000-children-estimated-be-need-humanitarian-assistance-after-venezuela"
+        }
+      ]
+    }
+  ],
+  "sourceWatch": [
+    {
+      "name": "PAHO / WHO 29 Jun call",
+      "status": "Included",
+      "use": "Primary source for hospital damage, operational services, WASH/connectivity deficits and medical recommendations.",
+      "caveat": "Internal-call slides supplied by user; figures are still evolving and assessment fieldwork occurred 25–27 Jun.",
+      "url": "https://www.paho.org/en/earthquakes-venezuela-2026"
+    },
+    {
+      "name": "ReliefWeb / Health Cluster SitRep 2",
+      "status": "Included",
+      "use": "Public index for the 27 Jun Health Cluster situation report; PAHO report used as the substantive source.",
+      "caveat": "ReliefWeb page may present bot protection in some sessions.",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-health-cluster-earthquakes-situation-report-2-27-june-2026-enes"
+    },
+    {
+      "name": "Virtual OSOCC discussion",
+      "status": "Gated",
+      "use": "Event discussion and coordination room existence confirmed.",
+      "caveat": "Detailed operational content requires authorized credentials; no inference past the gate.",
+      "url": "https://vosocc.unocha.org/VODiscussions.aspx"
+    },
+    {
+      "name": "GDACS",
+      "status": "Included",
+      "use": "Authoritative international event alert and baseline technical feed.",
+      "caveat": "Not a substitute for field worksite or hospital status.",
+      "url": "https://www.gdacs.org/gts.aspx?eventid=1548377&eventtype=EQ"
+    },
+    {
+      "name": "USGS",
+      "status": "Included",
+      "use": "Seismic sequence validation; 10 M4+ events in the Venezuela-area query since 24 Jun, including a reviewed M4.6 near Caraballeda on 29 Jun.",
+      "caveat": "Seismic feed does not confirm humanitarian impacts.",
+      "url": "https://earthquake.usgs.gov/earthquakes/map/?extent=-43.32518,-149.94141&extent=54.26522,43.24219"
+    },
+    {
+      "name": "Reconectemos missing-person tool",
+      "status": "Lead only",
+      "use": "Civilian family-reconnection and missing-person lead intake.",
+      "caveat": "Do not use the public counter as an authoritative or deduplicated missing-person total.",
+      "url": "https://desaparecidosterremotovenezuela.com/"
+    },
+    {
+      "name": "Conversa Corps",
+      "status": "Unverified",
+      "use": "Potential civil-society coordination lead.",
+      "caveat": "No verified in-country earthquake operation established in current source set.",
+      "url": "https://conversacorps.org/"
+    },
+    {
+      "name": "Serve Source",
+      "status": "Unverified",
+      "use": "Potential church/nonprofit coordination lead.",
+      "caveat": "No verified in-country earthquake operation established in current source set.",
+      "url": "https://www.servesource.org/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Venezuelan Government 29 Jun Update via teleSUR",
+      "url": "https://www.telesurtv.net/venezuela-sube-fallecidos-doblete-sismico/",
+      "tier": "T1-GOV-ES"
+    },
+    {
+      "name": "UN Geneva 29 Jun Operational Update",
+      "url": "https://www.ungeneva.org/en/news-media/news/2026/06/120122/venezuela-quake-search-goes-survivors-amid-impossible-odds",
+      "tier": "T1"
+    },
+    {
+      "name": "SOUTHCOM 29 Jun Relief Update",
+      "url": "https://www.southcom.mil/News/PressReleases/Article/4529441/release-update-on-southcom-support-to-venezuela-earthquake-relief-june-29/",
+      "tier": "T1-GOV"
+    },
+    {
+      "name": "Associated Press 29 Jun Field Report",
+      "url": "https://apnews.com/article/venezuela-earthquakes-survivors-rescue-rodriguez-c1e96329a6194b56f19c75c168b9595d",
+      "tier": "T2"
+    },
+    {
+      "name": "PAHO / WHO 29 Jun Call Slides (user supplied)",
+      "url": "https://www.paho.org/en/earthquakes-venezuela-2026",
+      "tier": "T1-INTERNAL"
+    },
+    {
+      "name": "ReliefWeb Health Cluster SitRep 2",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-health-cluster-earthquakes-situation-report-2-27-june-2026-enes",
+      "tier": "T1-INDEX"
+    },
+    {
+      "name": "Virtual OSOCC Discussions",
+      "url": "https://vosocc.unocha.org/VODiscussions.aspx",
+      "tier": "T1-GATED"
+    },
+    {
+      "name": "USGS Latest Earthquakes",
+      "url": "https://earthquake.usgs.gov/earthquakes/map/?extent=-43.32518,-149.94141&extent=54.26522,43.24219",
+      "tier": "T1"
+    },
+    {
+      "name": "Reconectemos Missing Persons",
+      "url": "https://desaparecidosterremotovenezuela.com/",
+      "tier": "T3-LEAD"
+    },
+    {
+      "name": "Conversa Corps",
+      "url": "https://conversacorps.org/",
+      "tier": "T3-UNVERIFIED"
+    },
+    {
+      "name": "Serve Source",
+      "url": "https://www.servesource.org/",
+      "tier": "T3-UNVERIFIED"
+    },
+    {
+      "name": "OCHA / United Nations",
+      "url": "https://www.ungeneva.org/en/news-media/news/2026/06/120113/venezuela-earthquakes-international-rescue-teams-join-search",
+      "tier": "T1"
+    },
+    {
+      "name": "PAHO Response Hub",
+      "url": "https://www.paho.org/en/earthquakes-venezuela-2026",
+      "tier": "T1"
+    },
+    {
+      "name": "GDACS Event",
+      "url": "https://www.gdacs.org/gts.aspx?eventid=1548377&eventtype=EQ",
+      "tier": "T1"
+    },
+    {
+      "name": "NASA Damage Layer",
+      "url": "https://gis.earthdata.nasa.gov/portal/home/item.html?id=0c3d77dd5aae46e4829d9a282477615c",
+      "tier": "T1-MODEL"
+    },
+    {
+      "name": "EU Civil Protection",
+      "url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-delivers-emergency-aid-and-organises-humanitarian-flight-response-earthquakes-venezuela-2026-06-29_en",
+      "tier": "T1"
+    },
+    {
+      "name": "IFRC Emergency Appeal",
+      "url": "https://www.ifrc.org/press-release/venezuela-earthquakes-ifrc-launches-emergency-appeal-assist-300000-people-and",
+      "tier": "T1"
+    },
+    {
+      "name": "UNICEF Appeal",
+      "url": "https://www.unicef.org/press-releases/unicef-680000-children-estimated-be-need-humanitarian-assistance-after-venezuela",
+      "tier": "T1"
+    },
+    {
+      "name": "WFP Response",
+      "url": "https://www.wfp.org/stories/wfp-supports-venezuela-earthquake-response-food-other-assistance",
+      "tier": "T1"
+    },
+    {
+      "name": "EFE La Guaira Field Report",
+      "url": "https://efe.com/mundo/2026-06-29/esperanza-busqueda-rescate-personas-la-guaira-terremotos-venezuela/",
+      "tier": "T2-ES"
+    },
+    {
+      "name": "El País Live Coverage",
+      "url": "https://elpais.com/america/2026-06-29/ultima-hora-del-terremoto-en-venezuela-en-directo.html",
+      "tier": "T2-ES"
+    },
+    {
+      "name": "RTVE Response Coverage",
+      "url": "https://www.rtve.es/noticias/20260626/gobierno-venezolano-eleva-numero-muertos-terremotos/17133219.shtml",
+      "tier": "T2-ES"
+    },
+    {
+      "name": "Team Rubicon Medical Capability",
+      "url": "https://teamrubiconusa.org/how-we-serve/medical/",
+      "tier": "T1-ORG"
+    }
+  ]
+}

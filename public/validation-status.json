@@ -1,0 +1,16 @@
+{
+  "checkedAtUtc": "2026-06-29T21:20:12.801449+00:00",
+  "status": "partial",
+  "promotedFields": [
+    "international rescue capacity"
+  ],
+  "sourceErrors": {
+    "southcom": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "rules": "Primary-source extraction plus independent corroboration where available; failed checks preserve last verified values.",
+  "latestUsgsM4Plus": {
+    "magnitude": 4.6,
+    "place": "27 km N of Caraballeda, Venezuela",
+    "timeUtc": "2026-06-29T11:01:03.516000+00:00"
+  }
+}
