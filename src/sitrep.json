@@ -1,6 +1,6 @@
 {
   "meta": {
-    "cutoff": "29 JUN 2026 · 17:27 ET",
+    "cutoff": "29 JUN 2026 · 18:35 ET",
     "nextUpdate": "AUTOMATIC CHECKS · ≤30 MIN",
     "overallConfidence": "Moderate-high",
     "phase": "SEARCH & RESCUE → HUMANITARIAN TRANSITION"
@@ -10,13 +10,13 @@
     {
       "label": "REPORTED DEATHS",
       "value": "1,719",
-      "note": "29 Jun government update; not yet reconciled with UN reporting.",
-      "confidence": "Moderate"
+      "note": "Latest government update; independently corroborated at threshold by AP.",
+      "confidence": "Moderate-high"
     },
     {
       "label": "REPORTED INJURIES",
       "value": "5,034",
-      "note": "29 Jun government update; provisional and rapidly changing.",
+      "note": "Latest government update; independent reconciliation pending.",
       "confidence": "Moderate"
     },
     {
@@ -35,17 +35,17 @@
   "deltas": [
     {
       "label": "Deaths",
-      "from": "1,450",
+      "from": "1,719",
       "to": "1,719",
       "status": "up",
-      "note": "+269"
+      "note": "+0"
     },
     {
       "label": "Injured",
-      "from": "3,150",
+      "from": "5,034",
       "to": "5,034",
       "status": "up",
-      "note": "+1,884"
+      "note": "+0"
     },
     {
       "label": "Buildings affected",
