@@ -1,6 +1,6 @@
 {
   "meta": {
-    "cutoff": "30 JUN 2026 · 09:06 ET",
+    "cutoff": "30 JUN 2026 · 09:35 ET",
     "nextUpdate": "AUTOMATIC CHECKS · ≤30 MIN",
     "overallConfidence": "Moderate-high",
     "phase": "SEARCH & RESCUE → HUMANITARIAN TRANSITION"
@@ -10,12 +10,32 @@
     "window": "LAST 12 HOURS · 29 JUN 21:00–30 JUN 09:00 ET",
     "assessment": "Reported casualty totals remained broadly stable and are now corroborated by the UN, while operational emphasis continues shifting from rescue toward fatality management, protection and sustained humanitarian support.",
     "changes": [
-      {"type":"CONFIRMED","title":"UN corroborates casualty baseline","detail":"UN reporting now carries 1,719 deaths and approximately 5,000 injured; government/UN reconciliation risk is reduced but totals remain provisional."},
-      {"type":"RESPONSE","title":"International capacity continues arriving","detail":"European teams from France, the UK and Spain were reported arriving Tuesday; UNHCR is scaling protection assistance."},
-      {"type":"EMERGING NEED","title":"Fatality management is expanding","detail":"The UN and Venezuelan authorities agreed to procure 10,000 body bags as recovery operations and identification requirements increase."},
-      {"type":"DATA RISK","title":"Damage estimates remain unreconciled","detail":"Public estimates differ materially by method and coverage; use facility- and worksite-level validation for operational decisions."}
+      {
+        "type": "CONFIRMED",
+        "title": "UN corroborates casualty baseline",
+        "detail": "UN reporting now carries 1,719 deaths and approximately 5,000 injured; government/UN reconciliation risk is reduced but totals remain provisional."
+      },
+      {
+        "type": "RESPONSE",
+        "title": "International capacity continues arriving",
+        "detail": "European teams from France, the UK and Spain were reported arriving Tuesday; UNHCR is scaling protection assistance."
+      },
+      {
+        "type": "EMERGING NEED",
+        "title": "Fatality management is expanding",
+        "detail": "The UN and Venezuelan authorities agreed to procure 10,000 body bags as recovery operations and identification requirements increase."
+      },
+      {
+        "type": "DATA RISK",
+        "title": "Damage estimates remain unreconciled",
+        "detail": "Public estimates differ materially by method and coverage; use facility- and worksite-level validation for operational decisions."
+      }
     ],
-    "sources":["UN Geneva 29 Jun","UNHCR 30 Jun","European field reporting 30 Jun"]
+    "sources": [
+      "UN Geneva 29 Jun",
+      "UNHCR 30 Jun",
+      "European field reporting 30 Jun"
+    ]
   },
   "metrics": [
     {
@@ -695,9 +715,21 @@
     }
   ],
   "sources": [
-    {"name":"UN Geneva Casualty and Response Update","url":"https://www.ungeneva.org/en/news-media/news/2026/06/120157/venezuela-earthquake-death-toll-passes-1700-un-continues-scale","tier":"T1"},
-    {"name":"UNHCR 30 Jun Protection Update","url":"https://www.unhcr.org/news/briefing-notes/unhcr-scales-response-venezuela-amid-growing-post-earthquake-vulnerabilities","tier":"T1"},
-    {"name":"European Rescue Team Arrivals","url":"https://www.euronews.com/2026/06/30/european-rescue-teams-arrive-in-venezuela-in-desperate-bid-to-find-quake-survivors","tier":"T2"},
+    {
+      "name": "UN Geneva Casualty and Response Update",
+      "url": "https://www.ungeneva.org/en/news-media/news/2026/06/120157/venezuela-earthquake-death-toll-passes-1700-un-continues-scale",
+      "tier": "T1"
+    },
+    {
+      "name": "UNHCR 30 Jun Protection Update",
+      "url": "https://www.unhcr.org/news/briefing-notes/unhcr-scales-response-venezuela-amid-growing-post-earthquake-vulnerabilities",
+      "tier": "T1"
+    },
+    {
+      "name": "European Rescue Team Arrivals",
+      "url": "https://www.euronews.com/2026/06/30/european-rescue-teams-arrive-in-venezuela-in-desperate-bid-to-find-quake-survivors",
+      "tier": "T2"
+    },
     {
       "name": "Venezuelan Government 29 Jun Update via teleSUR",
       "url": "https://www.telesurtv.net/venezuela-sube-fallecidos-doblete-sismico/",
