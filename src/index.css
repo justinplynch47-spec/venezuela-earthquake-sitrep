@@ -4,25 +4,26 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+    color-scheme: dark;
+    --background: 207 53% 7%;
+    --foreground: 205 37% 94%;
+    --card: 207 43% 10%;
+    --card-foreground: 205 37% 94%;
+    --popover: 207 43% 10%;
+    --popover-foreground: 205 37% 94%;
+    --primary: 205 100% 68%;
+    --primary-foreground: 207 53% 7%;
+    --secondary: 207 40% 16%;
+    --secondary-foreground: 205 37% 94%;
+    --muted: 207 35% 16%;
+    --muted-foreground: 205 18% 70%;
+    --accent: 207 45% 20%;
+    --accent-foreground: 205 37% 94%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
+    --border: 205 28% 27%;
+    --input: 205 28% 27%;
+    --ring: 205 100% 68%;
     --radius: 0.5rem;
   }
 
@@ -55,5 +56,10 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  html, body, #root {
+    min-height: 100%;
+    color: hsl(var(--foreground));
+    background: hsl(var(--background));
   }
 }
