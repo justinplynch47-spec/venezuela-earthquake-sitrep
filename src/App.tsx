@@ -78,6 +78,10 @@ function App() {
     </section>
 
     {tab === 'brief' && <>
+      <section className="executive-summary">
+        <header><div><b>EXECUTIVE SUMMARY</b><span>{data.executiveSummary.window}</span></div><p>{data.executiveSummary.assessment}</p></header>
+        <div>{data.executiveSummary.changes.map(item => <article key={item.title} className={item.type.toLowerCase().replaceAll(' ','-')}><span>{item.type}</span><b>{item.title}</b><p>{item.detail}</p></article>)}</div>
+      </section>
       <section className="brief-main">
         <div className="need-column">
           <div className="section-label">HIGH-VALUE NEEDS · TR CAPABILITY ALIGNMENT</div>
