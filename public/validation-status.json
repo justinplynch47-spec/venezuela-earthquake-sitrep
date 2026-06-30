@@ -1,7 +1,10 @@
 {
-  "checkedAtUtc": "2026-06-30T07:44:51.807778+00:00",
+  "checkedAtUtc": "2026-06-30T10:50:55.078826+00:00",
   "status": "partial",
   "promotedFields": [
+    "reported deaths",
+    "reported injuries",
+    "affected population",
     "international rescue capacity"
   ],
   "sourceErrors": {
