@@ -1,11 +1,13 @@
 {
-  "checkedAtUtc": "2026-07-01T13:17:04.241592+00:00",
+  "checkedAtUtc": "2026-07-01T16:03:19.412980+00:00",
   "status": "partial",
   "promotedFields": [
+    "reported deaths",
+    "reported injuries",
+    "affected population",
     "international rescue capacity"
   ],
   "sourceErrors": {
-    "government": "HTTPError: HTTP Error 413: Payload Too Large",
     "southcom": "HTTPError: HTTP Error 403: Forbidden"
   },
   "rules": "Primary-source extraction plus independent corroboration where available; failed checks preserve last verified values.",
